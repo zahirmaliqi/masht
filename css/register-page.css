@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Samsung sans',sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.register-box{
+    border: 1px solid #DADCE0;
+    border-radius: 6px;
+    padding: 30px 5px 30px 5px;
+}
+
+/* .signin{
+    background: white;
+    padding: 40px 70px 40px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+} */
+
+.register-info{
+    width: 400px !important;
+}
+
+.register-icon{
+    width: 300px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.user-input-wrp {
+	position: relative;
+	width: 100%;
+    margin: 5px;
+}
+.user-input-wrp .inputText{
+	width: 100%;
+	outline: none;
+	border:none;
+	border: 1px solid #777;
+    border-radius: 4px;
+    padding: 6px 8px;
+ 	/* box-shadow: none !important; */
+}
+.user-input-wrp .inputText:focus{
+	border: 2px solid #264F91;
+	/* border-width: medium medium 2px; */
+}
+.user-input-wrp .floating-label {
+	position: absolute;
+	pointer-events: none;
+	top: 7px;
+	left: 10px;
+	transition: 0.2s ease all;
+}
+.user-input-wrp input:focus ~ .floating-label,
+.user-input-wrp input:not(:focus):valid ~ .floating-label{
+	top: -10px;
+	left: 10px;
+	font-size: 12px;
+	opacity: 1;
+    color: #264F91;
+    background-color: white;
+    padding: 1px;
+}
+
+.personal-info{
+    margin-top: 30px;
+}
+
+.personal-info, .private-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.registerbttn{
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 6px;
+}
+
+.gov-img{
+    width: 50%;
+}
+
+.photo-part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.bttn-section{
+    margin-top: 30px;
+}
+
+.goback-bttn{
+    background-color: transparent;
+    border-color: #ce0101;
+    color: #ce0101;
+}
+
+.next-bttn{
+    background-color: #0c4f91;
+    border-color: #0c4f91;
+    color: #fff;
+}
+
+
+@media (max-width:769px) {
+.gov-img {
+    width: 40%;
+}
+
+.register-info h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.personal-info {
+    margin-top: 10px;
+}
+
+.user-input-wrp .floating-label{
+font-size: 13px;
+}
+
+.res-pas{
+    display: flex;
+    flex-direction: column;
+    padding-right: 8px;
+}
+
+.password-rule{
+    font-size: 15px;
+}
+
+}

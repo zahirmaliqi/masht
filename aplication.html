@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regjistrimi i fëmijeve</title>
+    <link rel="stylesheet" href="./css/aplication.css">
+    <script src="./js/aplication.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="container-fluid">
+        <div class="row header">
+            <div class="col-7 masht-part">
+                    
+                     <div><img src="./images/MASHT-logo.png" alt="" width="50px" height="50px"/> </div>
+                     <div class="masht-title">MINISTRIA E ARSIMIT, SHKENCËS, TEKNOLOGJISË DHE INOVACIONIT</div>
+                     
+            </div>
+            <div class="col-5 bttn-part">
+                <div class="row ">
+                        <div class="language">
+                           <a><span class="language-op">SHQ</span></a>
+                           <a><span class="language-op">ENG</span></a>
+                           <a><span class="language-op">SRB</span></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Border -->
+    <div class="container border-1">
+        <div class="row">
+            <div class="col-12 logo">
+                <img src="./images/MASHT-logo.png" alt="Logo Ministria e Arsimit" class="img-fluid mx-auto d-block">
+            </div>
+        </div>
+
+        <div class="container">
+            <!--Seksioni A -->
+            <div id="form1">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col header">
+                            <h4>Seksioni A: Të dhënat e Aplikuesit</h4>
+                        </div>
+                    </div>
+                </div>
+                <!--Rreshti 1 -->
+                <div class="row mt-2">
+                    <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                        <form action="#">
+                            <input type="text" placeholder="Emri" class="form-control">
+                        </form>
+                    </div>
+
+                    <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                        <form action="#">
+                            <input type="text" placeholder="Mbiemri" class="form-control">
+                        </form>
+                    </div>
+                </div>
+
+                <!--Rreshti 2 -->
+                <div class="row mt-2">
+                    <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                        <form action="#">
+                            <input type="text" placeholder="Datëlindja" class="form-control">
+                        </form>
+                    </div>
+
+                    <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                        <form action="#">
+                            <input type="text" placeholder="Gjinia" class="form-control">
+                        </form>
+                    </div>
+                </div>
+
+                <!--Rreshti 3 -->
+                <div class="row mt-2">
+                    <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                        <form action="#">
+                            <input type="text" placeholder="Adresa" class="form-control">
+                        </form>
+                    </div>
+                    <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                        <form action="#">
+                            <input type="text" placeholder="Email" class="form-control">
+                        </form>
+                    </div>
+                </div>
+
+                <!--Rreshti 4 -->
+                <div class="row mt-2">
+                    <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                        <form action="#">
+                            <input type="text" placeholder="Numri Telefonit" class="form-control">
+                        </form>
+                    </div>
+
+                    <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                        <form action="#">
+                            <input type="text" placeholder="Numri Tel Fiks" class="form-control">
+                        </form>
+                    </div>
+                </div>
+
+                <!--Rreshti 5 -->
+                <div class="row mt-2">
+                    <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                        <form action="#">
+                            <input type="text" placeholder="NID" class="form-control">
+                        </form>
+                    </div>
+
+                    <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                        <form action="#">
+
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12" id="btn-wrapper">
+                        <button type="submit" class="btn btn-outline-primary my-2" onclick="next1()">Vazhdo</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="form2">
+                <div class="container">
+                    <!--Seksioni B -->
+
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 header">
+                                <h4>Seksioni B: Informacion mbi Aplikantin</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Rreshti 1 B -->
+                    <div class="row mt-2">
+                        <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                            <form action="#">
+                                <label for="lidhja">Lidhja juaj me fëmijën është</label>
+                                <select class="form-select">
+                                    <option value="#"></option>
+                                </select>
+                            </form>
+                        </div>
+
+                        <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                            <form action="#">
+                                <label for="atësia">Atësia</label>
+                                <input type="text" placeholder="" class="form-control" id="atesia">
+                            </form>
+                        </div>
+                    </div>
+
+                    <!--Rreshti 2 B -->
+                    <div class="row mt-2">
+                        <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                            <form action="#">
+                                <label for="emri">Emri</label>
+                                <input type="text" class="form-control" id="emri">
+                            </form>
+                        </div>
+
+                        <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                            <form action="#">
+                                <label for="mbiemri">Mbiemri</label>
+                                <input type="text" placeholder="" class="form-control" id="mbiemri">
+                            </form>
+                        </div>
+                    </div>
+
+                    <!--Rreshti 3 B -->
+                    <div class="row mt-2">
+                        <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                            <form action="#">
+                                <label for="ditëlindja">Ditëlindja</label>
+                                <input type="date" placeholder="" class="form-control" id="ditelindja">
+                            </form>
+                        </div>
+
+                        <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                            <form action="#" class="form-check-inline">
+                                <label for="gjinia">Gjinia</label>
+
+                                <div class="mt-2">
+                                    <input type="radio" name="radio" id="femer">
+                                    <label for="femer">Femer</label>
+
+                                    <input type="radio" class="ms-1" name="radio" id="mashkull">
+                                    <label for="mashkull">Mashkull</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!--Rreshti 4 B -->
+                    <div class="row mt-2">
+                        <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                            <form action="#">
+                                <label for="pakicat">Pakicë kombëtare</label>
+                                <select class="form-select">
+                                    <option disabled>Zgjedh një nga opsionet më poshtë</option>
+                                    <option value="serb">Serb</option>
+                                    <option value="boshnjak">Boshnjak</option>
+                                    <option value="turq">Turk</option>
+                                    <option value="rom">Rom</option>
+                                    <option value="egjiptas">Egjiptas</option>
+                                    <option value="ashkali">Ashkali</option>
+                                    <option value="goran">Goran</option>
+                                </select>
+                            </form>
+                        </div>
+
+                        <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                            <form action="#">
+                                <label for="nid">NID</label>
+                                <input type="text" placeholder="" class="form-control" id="nid">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12" id="btn-wrapper">
+                    <button type="submit" class="btn btn-outline-primary my-2 mx-2" 
+                        onclick="previous1()">Kthehu
+                    </button>
+                    <button type="submit" class="btn btn-outline-primary my-2 mx-2" 
+                        onclick="next2()">Vazhdo
+                    </button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="form3">
+                <div class="container">
+                    <!--Seksioni C -->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 header">
+                                <h4>Seksioni C: Informacion mbi Aplikantin</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Rreshti 1 C -->
+                    <div class="row mt-2">
+                        <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                            <form action="#">
+                                <label for="komuna">Komuna ku banoni</label>
+                                <select class="form-select">
+                                    <option disabled>Zgjedh një nga opsionet më poshtë</option>
+                                    <option value="prishtinë">Prishtinë</option>
+                                    <option value="prizren">Prizren</option>
+                                    <option value="ferizaj">Ferizaj</option>
+                                    <option value="pejë">Pejë</option>
+                                    <option value="gjakovë">Gjakovë</option>
+                                    <option value="besianë">Besianë</option>
+                                    <option value="gjilan">Gjilan</option>
+                                    <option value="mitrovicë">Mitrovicë</option>
+                                    <option value="vushtrri">Vushtrri</option>
+                                    <option value="malishevë">Malishevë</option>
+                                    <option value="drenas">Drenas</option>
+                                    <option value="lipjan">Lipjan</option>
+                                    <option value="rahovec">Rahovec</option>
+                                    <option value="theranda">Theranda</option>
+                                    <option value="skenderaj">Skenderaj</option>
+                                    <option value="vitia">Vitia</option>
+                                    <option value="burimi">Istog</option>
+                                    <option value="deçan">Deçan</option>
+                                    <option value="klina">Klinë</option>
+                                    <option value="kamenice">Kamenicë</option>
+                                    <option value="fushkosove">Fushë Kosovë</option>
+                                    <option value="dragash">Dragash</option>
+                                    <option value="kaqanik">Kaçanik</option>
+                                    <option value="mitrovicaV">Mitrovica Veriore</option>
+                                    <option value="shtime">Shtime</option>
+                                    <option value="kastriot">Kastriot</option>
+                                    <option value="zveqan">Zveçan</option>
+                                    <option value="zubinpotok">Zubin Potok</option>
+                                    <option value="graqanice">Graçanicë</option>
+                                    <option value="hanielezit">Hani i Elezit</option>
+                                    <option value="shterpce">Shtërpcë</option>
+                                    <option value="artana">Artanë</option>
+                                    <option value="juniku">Junik</option>
+                                    <option value="mamushe">Mamushë</option>
+                                    <option value="ranillug">Ranillug</option>
+                                    <option value="kllokot">Kllokot</option>
+                                    <option value="partesh">Partesh</option>
+                                </select>
+                            </form>
+                        </div>
+
+                        <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                            <form action="#">
+                                <label for="njesiaadministratifve">Njësia Administrative</label>
+                                <select class="form-select">
+                                    <option disabled>Zgjedh një nga opsionet më poshtë</option>
+                                    <option value="prishtinë">Prishtinë</option>
+                                    <option value="mitrovicë">Mitrovicë</option>
+                                    <option value="prizren">Prizren</option>
+                                    <option value="gjilan">Gjilan</option>
+                                    <option value="ferizaj">Ferizaj</option>
+                                    <option value="pejë">Pejë</option>
+                                    <option value="gjakove">Gjakovë</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!--Rreshti 2 C -->
+                    <div class="row mt-2">
+                        <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                            <form action="#">
+                                <label for="lidhja">Rruga/Fshati/Zona ku banoni</label>
+                                <select class="form-select">
+                                    <option disabled>Zgjedh një nga opsionet më poshtë</option>
+                                </select>
+                            </form>
+                        </div>
+
+                        <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                            <form action="#">
+                                <label for="lidhja">Shkolla ku do ta regjistroni fëmijën</label>
+                                <select class="form-select">
+                                    <option disabled>Zgjedh një nga opsionet më poshtë</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12" id="btn-wrapper">
+                            <button type="submit" class="btn btn-outline-primary my-2 mx-2" onclick="previous2()">Kthehu</button>
+                            <button type="submit" class="btn btn-outline-primary my-2 mx-2" onclick="next3()">Vazhdo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div id="form4">
+                <div class="container">
+                    <!--Seksioni D -->
+                    <div class="container-fluid">
+                        <div class="row seksioni-d">
+                            <div class="col header">
+                                <h4>Seksioni D: Dokumentacioni</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Rreshti 1 D -->
+                    <div class="row mt-2">
+                        <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                            <form action="#">
+                                <label for="lidhja">Fëmija juaj është vaksinuar</label>
+                                <select class="form-select">
+                                    <option disabled>Zgjedh një nga opsionet më poshtë</option>
+                                    <option value="po">Po</option>
+                                    <option value="jo">Jo</option>
+                                </select>
+                            </form>
+                        </div>
+                        <!--Rreshti 2 D -->
+                        <div class="col-8 col-sm-5 col-md-5 col-lg-3 mx-auto p-2">
+                            <form action="#">
+                                <label for="deshmi">Dëshmi e vaksinimit</label>
+                                <input type="file" class="form-control ">
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <form action="#" class="form-check form-check-inline mt-5 ms-3">
+                                <input type="checkbox" class="form-check-input">
+                                <p>Unë i nënshkruari <input type="text" > deklaroj me përgjegjësi të plotë që të gjitha të dhënat e deklaruara
+                                në këtë formular janë të sakta</p>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 ">
+                            <form action="#" class="form-check form-check-inline mt-5 ms-3">
+                                <input type="checkbox" class="form-check-input">
+                                <p>Mbledhja e dokumentacionit ..</p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-12" id="btn-wrapper">
+                        <button type="submit" class="btn btn-outline-primary my-2 mx-2" onclick="previous3()">Kthehu</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <button type="submit" class="btn btn-outline-primary my-2 mx-auto" id="btnfooter" onclick="showApp()">Dergo</button>
+        <div class="succ-app-box" id="succ-app">
+            <img src="./images/tick-icon.png" alt="" srcset="">
+            <h2>Aplikim juaj ka perfunduar me sukses.</h2>
+            <p>Ne menyre qe te identifikoheni, ju lutem ruani numrin e aplikimit: <span>1956/8</span> </p>
+            <button type="button" onclick="downloadApp()">Shkarko</button>
+        </div>
+    </div>
+    
+    <script src="./js/aplication.js" defer></script>
+</body>
+
+</html>
